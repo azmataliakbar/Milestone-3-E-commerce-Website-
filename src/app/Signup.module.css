@@ -1,0 +1,120 @@
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2b579a, #1d3d70);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Signup Section */
+.signupSection {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+  box-sizing: border-box;
+}
+
+/* Text Content */
+.textContent h1 {
+  font-size: 2rem;
+  color: #2b579a;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.textContent p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+/* Signup Form */
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputField:focus {
+  border-color: #2b579a;
+  box-shadow: 0 0 10px rgba(43, 87, 154, 0.5);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #2b579a;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  background-color: orange;
+  transform: translateY(-2px);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .signupSection {
+    padding: 20px;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+
+  .textContent h1 {
+    font-size: 2.2rem;
+  }
+
+  .textContent p {
+    font-size: 0.9rem;
+  }
+
+  .inputField {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+
+  .submitButton {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+}
+

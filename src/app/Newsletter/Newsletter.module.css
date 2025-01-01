@@ -1,0 +1,140 @@
+/* General Styles */
+.newsletterPage {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #bfdbfe;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #2b579a;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Responsive Grid Container */
+.cardsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .cardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgb(4, 4, 203);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.title:hover {
+  transform: translateY(-10px);
+}
+
+.content {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.readMore {
+  color: #2b579a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer h2 {
+  font-size: 1.8rem;
+  color: #2b579a;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer h2:hover {
+  transform: scale(1.2);
+}
+
+.footer p {
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.footer p:hover {
+  transform: scale(1.1);
+}
+
+/* Mobile-First Adjustments */
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+
+  .footer h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,197 @@
+
+
+
+[
+  {
+    "id": 1,
+    "name": "TV",
+    "description": "LED TV 1",
+    "image": "/tv1.png"
+  },
+  {
+    "id": 2,
+    "name": "TV",
+    "description": "LED TV 2",
+    "image": "/tv2.png"
+  },
+  {
+    "id": 3,
+    "name": "TV",
+    "description": "LED TV 3",
+    "image": "/tv3.png"
+  },
+  {
+    "id": 4,
+    "name": "TV",
+    "description": "LED TV 4",
+    "image": "/tv4.png"
+  },
+  {
+    "id": 5,
+    "name": "Laptop",
+    "description": "HP i-7",
+    "image": "/cmp1.png"
+  },
+  {
+    "id": 6,
+    "name": "Laptop",
+    "description": "Dell i-9",
+    "image": "/cmp2.png"
+  },
+  {
+    "id": 7,
+    "name": "Laptop",
+    "description": "HP i-9",
+    "image": "/cmp3.png"
+  },
+  {
+    "id": 8,
+    "name": "Laptop",
+    "description": "Dell i-7",
+    "image": "/cmp4.png"
+  },
+  {
+    "id": 9,
+    "name": "Mobile Phone",
+    "description": "IPhone-14 Pro",
+    "image": "/mob1.png"
+  },
+  {
+    "id": 10,
+    "name": "Mobile Phone",
+    "description": "Samsung Galaxy A05",
+    "image": "/mob2.png"
+  },
+  {
+    "id": 11,
+    "name": "Mobile Phone",
+    "description": "Samsung Galaxy A06",
+    "image": "/mob3.png"
+  },
+  {
+    "id": 12,
+    "name": "Mobile Phone",
+    "description": "IPhone-15 Pro Max",
+    "image": "/mob4.png"
+  },
+  {
+    "id": 13,
+    "name": "Smart Watch",
+    "description": "Iphone watches",
+    "image": "/wch1.png"
+  },
+  {
+    "id": 14,
+    "name": "Smart Watch",
+    "description": "Samsung Sport-1 watch",
+    "image": "/wch2.png"
+  },
+  {
+    "id": 15,
+    "name": "Smart Watch",
+    "description": "Iphone watch-7",
+    "image": "/wch3.png"
+  },
+  {
+    "id": 16,
+    "name": "Smart Watch",
+    "description": "Samsung Sport-1 watch",
+    "image": "/wch4.png"
+  },
+  {
+    "id": 17,
+    "name": "Music",
+    "description": "Guitar Ultra-999",
+    "image": "/mus1.png"
+  },
+  {
+    "id": 18,
+    "name": "Music",
+    "description": "Sony Music Player-2025",
+    "image": "/mus2.png"
+  },
+  {
+    "id": 19,
+    "name": "Music",
+    "description": "Sony Head Phone-123",
+    "image": "/mus3.png"
+  },
+  {
+    "id": 20,
+    "name": "Music",
+    "description": "Yamaha Piano-777",
+    "image": "/mus4.png"
+  },
+  {
+    "id": 21,
+    "name": "Home Appliances",
+    "description": "Hier Cool A-135",
+    "image": "/hm1.png"
+  },
+  {
+    "id": 22,
+    "name": "Home Appliances",
+    "description": "Hitachi Washing Machine W-220",
+    "image": "/hm2.png"
+  },
+  {
+    "id": 23,
+    "name": "Home Appliances",
+    "description": "General Home Appliances",
+    "image": "/hm3.png"
+  },
+  {
+    "id": 24,
+    "name": "Home Appliances",
+    "description": "Samsung Microwave Oven M-304",
+    "image": "/hm4.png"
+  },
+  {
+    "id": 25,
+    "name": "Home Appliances",
+    "description": "Philips Hair Dryer P-101",
+    "image": "/hm5.png"
+  },
+  {
+    "id": 26,
+    "name": "Home Appliances",
+    "description": "Hitachi Hair Trimmer H-449",
+    "image": "/hm6.png"
+  },
+  {
+    "id": 27,
+    "name": "Home Appliances",
+    "description": "Rubicon Massage Set R-25",
+    "image": "/hm7.png"
+  },
+  {
+    "id": 28,
+    "name": "Home Appliances",
+    "description": "Rubicon Foot Care F-37",
+    "image": "/hm8.png"
+  },
+  {
+    "id": 29,
+    "name": "Digital Camera",
+    "description": "Willium Drone Camera Px-701",
+    "image": "/cm1.png"
+  },
+  {
+    "id": 30,
+    "name": "Digital Camera",
+    "description": "Nakon Digital F-70",
+    "image": "/cm2.png"
+  },
+  {
+    "id": 31,
+    "name": "Digital Camera",
+    "description": "Canon Digital V-50K",
+    "image": "/cm3.png"
+  },
+  {
+    "id": 32,
+    "name": "Digital Camera",
+    "description": "Canon Special S-608",
+    "image": "/cm4.png"
+  }
+]

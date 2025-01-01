@@ -18,6 +18,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+      <h4 className='text-gray-400 text-xs text-center mt-4'>Author: Azmat Ali</h4>
     </footer>
   );
 };
